@@ -20,7 +20,7 @@
     },
     "arguments":{
       "execute":{
-          "url":"https://mc-yjgfgcdd45pxk4yznvx-1z39q.rest.marketingcloudapis.com/activity/execute",
+          "url":"https://custom-activity-poc.herokuapp.com/activity/execute",
           "verb":"POST",
           "body":"",
           "header":"",
@@ -43,29 +43,29 @@
       }
   },
   "configurationArguments":{
-      "applicationExtensionKey": "9e3bf295-2c10-49b8-be36-d49c9d0c3f7e",
+      "applicationExtensionKey": "e371c3a1-2e3a-4425-833d-1309f470ba05",
       "save":{
-          "url":"https://custom-activity-demoaltimetrik.herokuapp.com/activity/save",
+          "url":"https://custom-activity-poc.herokuapp.com/activity/save",
           "verb":"POST",
           "useJwt":false
       },
       "validate":{
-          "url":"https://custom-activity-demoaltimetrik.herokuapp.com/activity/validate",
+          "url":"https://custom-activity-poc.herokuapp.com/activity/validate",
           "verb":"POST",
           "useJwt":false
       },
       "publish":{
-          "url":"https://custom-activity-demoaltimetrik.herokuapp.com/activity/publish",
+          "url":"https://custom-activity-poc.herokuapp.com/activity/publish",
           "verb":"POST",
           "useJwt":false
       },
       "unpublish":{
-          "url":"https://custom-activity-demoaltimetrik.herokuapp.com/activity/unpublish",
+          "url":"https://custom-activity-poc.herokuapp.com/activity/unpublish",
           "verb":"POST",
           "useJwt":false
       },
       "stop":{
-          "url":"https://custom-activity-demoaltimetrik.herokuapp.com/activity/stop",
+          "url":"https://custom-activity-poc.herokuapp.com/activity/stop",
           "verb":"POST",
           "useJwt":false
       }
